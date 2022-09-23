@@ -1,0 +1,30 @@
+#container {
+  height: 500px;
+  width: 900px;
+  border: 2px solid rgba(109, 161, 221, 0.685);
+  margin: auto;
+  margin-top: 80px;
+}
+#nav {
+  /* height: 10%; */
+  width: 90%;
+  padding: 15px;
+  margin-top: 25px;
+  margin-left: 18px;
+  /* text-align: end; */
+  display: flex;
+  border: 2px solid rgba(48, 31, 90, 0.678);
+}
+.right {
+  width: 70%;
+  /* border: 1px solid black; */
+}
+.left {
+  width: 30%;
+  display: flex;
+  gap: 15%;
+  /* border: 1px solid red; */
+}
+.left > div {
+  font-weight: bold;
+}

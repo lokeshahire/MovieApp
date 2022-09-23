@@ -1,0 +1,57 @@
+#nav {
+  /* height: 10%; */
+  width: 100%;
+  padding: 15px;
+  margin-top: 25px;
+  /* margin-left: 18px; */
+  margin: auto;
+  /* text-align: end; */
+  display: flex;
+  border: 2px solid rgba(48, 31, 90, 0.678);
+}
+.right {
+  width: 80%;
+  /* border: 1px solid black; */
+}
+.left {
+  width: 20%;
+  display: flex;
+  gap: 25%;
+  /* border: 1px solid red; */
+}
+.left > div {
+  font-weight: bold;
+}
+.image {
+  margin-top: 50px;
+
+  width: 40%;
+  height: 50%;
+}
+.star {
+  width: 50%;
+  height: 30px;
+  /* border: 1px solid green; */
+  margin-top: 7px;
+}
+.category {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+}
+.rating {
+  font-weight: bold;
+  /* border: 1px solid blue; */
+}
+.moviename {
+  font-size: 20px;
+  margin-top: 5px;
+}
+.box3 {
+  display: flex;
+  /* border: 1px solid red; */
+  width: 30%;
+}
+#movies {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}

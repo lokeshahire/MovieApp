@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        #container {
+            height: 500px;
+            width: 900px;
+            border: 2px solid rgba(109, 161, 221, 0.685);
+            margin: auto;
+            margin-top: 80px;
+        }
+
+        #nav {
+            /* height: 10%; */
+            width: 90%;
+            padding: 15px;
+            margin-top: 25px;
+            margin-left: 18px;
+            /* text-align: end; */
+            display: flex;
+            border: 2px solid rgba(48, 31, 90, 0.678);
+        }
+
+        .right {
+            width: 70%;
+            /* border: 1px solid black; */
+        }
+
+        .left {
+            width: 30%;
+            display: flex;
+            gap: 15%;
+            /* border: 1px solid red; */
+        }
+
+        .left>div {
+            font-weight: bold;
+        }
+    </style>
+    <!-- <link rel="stylesheet" href="home.css"> -->
+    <link rel="stylesheet" href="style/home.html">
+
+</head>
+
+<body>
+    <div id="container">
+        <div id="nav">
+            <div class="right"></div>
+            <div class="left">
+                <div onclick="window.location.href='home.html'">Home</div>
+                <div onclick="window.location.href='login.html'">Login</div>
+                <div onclick="window.location.href='signup.html'">Signup</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
